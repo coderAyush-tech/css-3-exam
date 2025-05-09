@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vw;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.353);
+    height: 30%;
+    color: aliceblue; 
+
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+   
+
+  
+}
+.Brandname{
+    font-weight:bold;
+    font-size: xx-large;
+    margin-right: 2rem;
+}
+.info{
+    display: flex;
+  gap: 1.5rem;
+  padding-left: 60rem;
+}
+.messege{
+text-align: center;
+  padding: 5%;
+  font-weight:bold;
+    font-size: large;
+}
+button{
+    text-align: center;
+    margin-left: 40%;
+   background-color: orange;
+   border-radius: 20px;
+   width: 20%;
+}
+main{
+    height: 50%;
+    margin-top: 3%;
+    text-align: center;
+}
+.Services{
+    height: 60%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 5rem;
+}
+.service{
+    margin: 10px;
+    background-color: aqua;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+ padding-top: 4%;
+
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+    
+}
+.service:hover{
+    transform: scale(1.05); 
+    box-shadow: 4px 4px  15px black;
+
+    
+}
+h3{
+    font-size: xx-large;
+    text-decoration: underline;
+}
+p{
+  
+    font-size: large;
+}
+.qwe{
+   margin:2% ;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    background-color: rgba(0, 0, 0, 0.353);
+    text-align: center;
+  align-items:center;
+}

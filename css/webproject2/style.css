@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+
+}
+.navi{
+background-color: black;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 20vh;
+}
+a{
+    color: white;
+    text-decoration: none;
+    transition: ease-in-out;
+}
+a:hover{
+    transform: translateY(-2px);
+}
+.left{
+color: white;
+padding-left: 50px;
+font-size: xx-large;
+}
+.right{
+color: white;
+font-size: xx-large;
+
+}
+.innerright{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px; 
+    gap: 20px;
+}
+
+.signin{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(173, 220, 46);
+    box-shadow: 0 4px 8px rgb(214, 209, 209);
+    transition: ease-in-out;
+    
+}
+.signin:hover{
+    cursor: pointer;
+    background-color: rgb(173, 220, 46);
+    
+    transform: translateY(-2px);
+}
+.main{
+display: flex;
+justify-content: space-between;
+}
+.main-left{
+margin-top: 5%;
+font-size: 5rem;
+font-weight:900;
+padding-left: 6%;
+
+}
+.skyblue {
+    color: skyblue;
+}
+.left-inner{
+    margin-top: 2%;
+
+    padding-left: 6%;
+}
+
+.main-right{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    
+
+}
+.parainner{
+    margin-top:2% ;
+    font-size: 2rem;
+    padding-left: 6%;
+
+}
+.explore{
+    margin-top:2% ;
+    margin-left: 6%;
+    font-weight: 900;
+    color: white;
+    border-color: black;
+    width: 20vh;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(13, 186, 186, 0.655);
+    transition: ease-in-out ;
+    box-shadow: 0 4px 8px red;
+  
+    
+}
+.explore:hover{
+ cursor: pointer;
+    
+    
+    transform: translateY(-2px);
+}

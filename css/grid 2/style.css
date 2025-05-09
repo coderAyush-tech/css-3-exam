@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.grid{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr  ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr  ;
+    
+}
+div{
+    background-color: black;
+    color: white;
+    border: 2px solid red;
+}
+.header{
+    grid-column-start: 1;
+    grid-column-end: ;
+}
+.main{
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+.upper{
+    grid-row-start: 1;
+    grid-column-start: 3;
+    
+
+}

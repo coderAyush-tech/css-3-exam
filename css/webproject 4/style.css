@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    font-size: 1.2vmin;
+    display: flex;
+    background-color: #eef2f7;
+}
+
+.left {
+    width: 12vw;
+    background-color: #1d3557;
+    height: 100vh;
+    color: white;
+    padding: 2vh 1vw;
+}
+
+.right {
+    width: 88vw;
+}
+
+.left h1 {
+    font-size: 2rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 1.2vh 1vw;
+    margin-bottom: 2vh;
+    background-color: #457b9d;
+    border-radius: 1vmin;
+    width: 10vw;
+    font-size: 1.2rem;
+}
+
+.right nav {
+    background-color: #a8dadc;
+    width: 100%;
+    height: 18vh;
+    margin: 2vh;
+    border-radius: 1vmin;
+    padding: 2vh;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+.profile img {
+    border-radius: 50%;
+    height: 12vh;
+    width: 12vh;
+}
+
+.name h1 {
+    font-size: 5.2rem;
+}
+
+.name p {
+    font-size: 2rem;
+}
+
+.courses {
+    background-color: white;
+    border-left: 0.5vw solid black;
+    border-radius: 2vmin;
+    margin: 2vh;
+    font-size: 2rem;
+    padding: 2vh 2vw;
+    height: auto;
+    overflow: hidden;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2vw;
+}
+
+.logo img {
+    width: 5vw;
+    min-width: 30px;
+    max-width: 60px;
+}
+
+.java {
+    flex: 1 1 200px;
+    max-width: 100%;
+    background-color: #dff0fb;
+    border-radius: 2vmin;
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1vh;
+}
+
+.java p {
+    margin-top: 2vh;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.main-sections {
+    padding: 20px;
+}
+
+.main-sections .p {
+    font-size: 2rem;
+
+}
+
+.section-box {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.section-box h3 {
+    margin-bottom: 15px;
+    font-size: 3rem;
+    color: #333;
+}
+
+.section-box ul {
+    padding-left: 20px;
+    list-style: none;
+}
+
+.section-box ul li {
+    margin-bottom: 8px;
+    font-size: 2rem;
+    color: #555;
+}
+
+.progress-bar .bar {
+    background: #ddd;
+    height: 12px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.progress-bar .fill {
+    height: 100%;
+    border-radius: 6px;
+}
+
+.fill.java {
+    width: 75%;
+    background-color: #007baf;
+}
+
+.fill.dsa {
+    width: 45%;
+    background-color: #14c8b4;
+}
+
+.fill.webdev {
+    width: 90%;
+    background-color: #ff507f;
+}

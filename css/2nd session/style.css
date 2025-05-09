@@ -1,0 +1,29 @@
+*{
+    
+}
+body{
+    background-color: burlywood;
+}.heading{
+   background-color: red;
+    text-align: center;
+}
+#p1{
+    text-align: center;
+}
+.div1{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+   border: 2px solid black;
+   border-radius: 50px;
+   margin:  2px ;
+   /* padding: 50%; */
+}
+
+
+.div1 .h1{
+    color: red;
+
+    text-align: center;
+    align-items: center;
+}

@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    text-align: center;
+    color: red;
+    background-color: black;
+    background-image: radial-gradient(circle ,red,blue,green);
+}
+body{
+    /* background-image: url(coding.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.para{
+    color: red;
+}
+.p2{
+    color: rgb(61, 33, 87,0.3);
+    text-transform: capitalize;
+    line-height: 3;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    text-shadow: 10px 4px 6px red;
+
+
+}
